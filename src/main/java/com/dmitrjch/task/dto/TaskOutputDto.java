@@ -5,6 +5,7 @@ import com.dmitrjch.task.model.TaskStatus;
 import lombok.Data;
 import java.util.List;
 import java.util.UUID;
+
     @Data
     public class TaskOutputDto {
         public UUID id;
