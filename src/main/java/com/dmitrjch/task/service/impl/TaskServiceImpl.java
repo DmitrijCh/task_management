@@ -2,8 +2,8 @@ package com.dmitrjch.task.service.impl;
 
 import com.dmitrjch.task.model.Task;
 import com.dmitrjch.task.model.TaskStatus;
-import com.dmitrjch.task.error.BadRequestException;
-import com.dmitrjch.task.error.NotFoundException;
+import com.dmitrjch.task.exception.BadRequestException;
+import com.dmitrjch.task.exception.NotFoundException;
 import com.dmitrjch.task.repository.TaskRepository;
 import com.dmitrjch.task.service.TaskService;
 import lombok.RequiredArgsConstructor;

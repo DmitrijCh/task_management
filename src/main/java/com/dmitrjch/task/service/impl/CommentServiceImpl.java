@@ -1,11 +1,10 @@
 package com.dmitrjch.task.service.impl;
 
-import com.dmitrjch.task.error.NotFoundException;
+import com.dmitrjch.task.exception.NotFoundException;
 import com.dmitrjch.task.model.Comment;
 import com.dmitrjch.task.model.Task;
 import com.dmitrjch.task.repository.CommentRepository;
 import com.dmitrjch.task.service.CommentService;
-import com.dmitrjch.task.service.TaskService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

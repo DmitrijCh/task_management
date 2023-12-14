@@ -1,7 +1,7 @@
 package com.dmitrjch.task.service.impl;
 
 import com.dmitrjch.task.model.Comment;
-import com.dmitrjch.task.error.NotFoundException;
+import com.dmitrjch.task.exception.NotFoundException;
 import com.dmitrjch.task.service.CommentService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.oauth2.jwt.Jwt;

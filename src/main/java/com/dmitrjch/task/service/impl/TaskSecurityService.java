@@ -1,14 +1,12 @@
 package com.dmitrjch.task.service.impl;
 
 import com.dmitrjch.task.model.Task;
-import com.dmitrjch.task.error.NotFoundException;
+import com.dmitrjch.task.exception.NotFoundException;
 import com.dmitrjch.task.service.TaskService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.oauth2.jwt.Jwt;
 import org.springframework.stereotype.Service;
 
-import java.security.Principal;
 import java.util.UUID;
 
 @Service
